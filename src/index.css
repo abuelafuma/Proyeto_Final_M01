@@ -1,0 +1,21 @@
+body {
+    background-color: #f0f0f0; /* Define el color de fondo del body */
+    font-family: Arial, sans-serif; /* Define la fuente del texto */
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center; /* Define el color del texto del encabezado h1 */
+  }
+  
+  article {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto; /* Agrega margen en la parte superior del formulario */
+  }
+
+  #saludo {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  }
+  
